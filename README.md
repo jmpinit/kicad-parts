@@ -10,6 +10,12 @@ and avoid unintentionally incorporating changes:
 git submodule add https://github.com/jmptable/kicad-parts.git
 ```
 
+Add it as a submodule for every project that you use it in, and don't add it as
+a global library. That way each project will use the right version of the
+library. For example, for the symbol libraries add them locally by going to
+Preferences > Manage Symbol Libraries then Project Specific Libraries and adding
+entries like "${KIPRJMOD}/kicad-parts/symbols/Jmptable_RF_Module.kicad_sym".
+
 # Schematic Editing
 
 ## Default Fields
