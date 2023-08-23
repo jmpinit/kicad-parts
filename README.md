@@ -7,7 +7,7 @@ Add this library as a submodule of your project repo so you can pin the version
 and avoid unintentionally incorporating changes:
 
 ```
-git submodule add https://github.com/jmptable/kicad-parts.git
+git submodule add https://github.com/jmpinit/kicad-parts.git
 ```
 
 Add it as a submodule for every project that you use it in, and don't add it as
